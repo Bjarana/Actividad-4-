@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Consolas y Videojuegos</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">JBL:Consolas y Videojuegos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Productos">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contacto">Contacto</a>
+        </li>
+      </ul>
+      <button class="btn btn-outline-success my-2 my-sm-0 mr-2" type="button" data-toggle="modal"
+        data-target="#loginModal">Iniciar sesión</button>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <!-- Contenido de la página -->
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>¡Bienvenido a JBL- consolas y videojuegos!</h2>
+        <p>En nuestra tienda, ofrecemos una amplia selección de consolas de última generación, así como una variedad de
+          videojuegos populares para todas las plataformas.</p>
+        <p>Explora nuestro catálogo para encontrar los últimos lanzamientos, clásicos atemporales y accesorios
+          emocionantes para mejorar tu experiencia de juego.</p>
+        <p>¡No dudes en contactarnos si necesitas ayuda o tienes alguna pregunta!</p>
+      </div>
+      
+      </div>
+    </div>
+    <div class="col-md-5 mb-4">
+        <h1 href="#Productos"> Productos</h1>
+    </div>  
+    <div class="row">
+        
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://th.bing.com/th/id/R.57f7bd79fbce56e5395e4d8a3848084e?rik=Uvl3zdxJ5LYX1w&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Consola PlayStation 5</h5>
+            <p class="card-text">La última consola de Sony con gráficos de alta definición y una gran variedad de juegos
+              disponibles.</p>
+            <a href="PlayStation5.html" class="btn btn-primary">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.4m6TaI2OkapkvNtAFpyYpAHaEK?rs=1&pid=ImgDetMain" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Consola Xbox Series X</h5>
+            <p class="card-text">La consola más potente de Microsoft con compatibilidad con juegos anteriores y
+              tecnología de vanguardia.</p>
+            <a href="Xbox x.html" class="btn btn-primary">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://th.bing.com/th/id/R.c17fd467b06e83161093b5a2f982c617?rik=YPfTusokzs%2fI6A&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nintendo Switch</h5>
+            <p class="card-text">La consola híbrida de Nintendo que te permite jugar en casa o en movimiento con una
+              amplia biblioteca de juegos.</p>
+            <a href="NinSwitch.html" class="btn btn-primary">Ver detalles</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <!-- Modal de login -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="loginEmail">Email</label>
+              <input type="email" class="form-control" id="loginEmail" placeholder="Ingresa tu email">
+            </div>
+            <div class="form-group">
+              <label for="loginPassword">Contraseña</label>
+              <input type="password" class="form-control" id="loginPassword" placeholder="Ingresa tu contraseña">
+            </div>
+            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+            <p class="mt-3">¿No tienes cuenta? <a href="#" data-toggle="modal" data-target="#registerModal"
+                data-dismiss="modal">Regístrate</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Juegos Destacados</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://www.generation-game.com/wp-content/uploads/2017/10/the-last-of-us-2-sortie-2018.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Last of Us Part II</h5>
+          <p class="card-text">Un juego de acción y aventura desarrollado por Naughty Dog, disponible exclusivamente
+            para PlayStation.</p>
+          <a href="#" class="btn btn-primary">Ver detalles</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://i.ytimg.com/vi/y8trZTSP3fk/maxresdefault.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cyberpunk 2077</h5>
+          <p class="card-text">Un juego de rol de mundo abierto desarrollado por CD Projekt Red, disponible para varias
+            plataformas.</p>
+          <a href="#" class="btn btn-primary">Ver detalles</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://animalcrossingworld.com/wp-content/uploads/2020/02/animal-crossing-new-horizons-key-artwork-january-2020-9000wide.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Animal Crossing: New Horizons</h5>
+          <p class="card-text">Un juego de simulación de vida desarrollado por Nintendo, exclusivo para Nintendo Switch.
+          </p>
+          <a href="#" class="btn btn-primary">Ver detalles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Juegos Recientes</h2>
+  <div class="row">
+    <!-- Agregar tarjetas de juegos recientes aquí -->
+  </div>
+
+  <div class="container mt-5">
+    <h2 herf="#Contacto">Contacto</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>¡Nos encantaría saber de ti! Si tienes alguna pregunta, comentario o sugerencia, no dudes en ponerte en
+          contacto con nosotros.</p>
+        <p>Puedes visitarnos en nuestra tienda física o contactarnos a través de correo electrónico o teléfono:</p>
+        <ul>
+          <li><strong>Dirección:</strong> Av. Ejemplo 1234, Ciudad, País</li>
+          <li><strong>Email:</strong> info@tiendavideojuegos.com</li>
+          <li><strong>Teléfono:</strong> +123 456 789</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="contactName">Nombre</label>
+            <input type="text" class="form-control" id="contactName" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email</label>
+            <input type="email" class="form-control" id="contactEmail" placeholder="Ingresa tu email">
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Mensaje</label>
+            <textarea class="form-control" id="contactMessage" rows="5"
+              placeholder="Escribe tu mensaje aquí"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal de registro -->
+  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="registerModalLabel">Registrarse</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="registerName">Nombre</label>
+              <input type="text" class="form-control" id="registerName" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="registerEmail">Email</label>
+              <input type="email" class="form-control" id="registerEmail" placeholder="Ingresa tu email">
+            </div>
+            <div class="form-group">
+              <label for="registerPassword">Contraseña</label>
+              <input type="password" class="form-control" id="registerPassword" placeholder="Ingresa tu contraseña">
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
