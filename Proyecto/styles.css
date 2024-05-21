@@ -1,0 +1,75 @@
+/* Estilos para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo */
+  }
+  
+  /* Estilos para el encabezado */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el botón de logout */
+  .navbar-nav .btn-danger {
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .container {
+    background-color: #fff; /* Fondo del contenedor */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  /* Estilos para el título */
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el botón de agregar nuevo */
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la tabla */
+  .table {
+    width: 100%;
+  }
+  
+  /* Estilos para las filas de la tabla */
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo de las filas pares */
+  }
+  
+  /* Estilos para el modal */
+  .modal-content {
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el título del modal */
+  .modal-title {
+    font-weight: bold;
+  }
+  
+  /* Estilos para el botón de guardar del modal */
+  .btn-success {
+    width: 100px;
+  }
+  
+  /* Estilos para el botón de cerrar del modal */
+  .btn-danger[data-dismiss="modal"] {
+    width: 100px;
+  }
+  
+  /* Estilos para el input dentro del modal */
+  .form-control {
+    width: 100%;
+  }
+  
+  /* Estilos para el cuerpo del modal */
+  .modal-body {
+    padding: 20px;
+  }
+  

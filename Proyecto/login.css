@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el título */
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para el formulario */
+  #loginForm {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los campos del formulario */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos para las etiquetas del formulario */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Estilos para el botón */
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el enlace */
+  a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #0056b3;
+  }
+  
